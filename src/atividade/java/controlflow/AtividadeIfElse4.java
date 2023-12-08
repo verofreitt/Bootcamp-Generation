@@ -11,14 +11,18 @@ public class AtividadeIfElse4 {
 		String vertebrado = "vertebrado";
 		String invertebrado = "invertebrado";
 		
-		System.out.println("Escolha entre Ave ou mamifero");
+		System.out.println("Se sua escolha foi vertebrado, escolha ave ou mamifero");
+		System.out.println("Se sua escolha foi invertebrado, escolha inseto ou anelideo");
 		String segundaEscolha = scanner.nextLine();
 		String ave = "Ave";
 		String mamifero = "mamifero";
 		String inseto = "inseto";
 		String anelideo = "anelideo";
 		
-		System.out.println("Escolha entre carnivoro ou onívoro");
+		System.out.println("Se sua escolha foi ave, escolha carnivoro ou onivoro");
+		System.out.println("Se sua escolha foi mamifero, escolha onivoro ou herbivoro");
+		System.out.println("Se sua escolha foi inseto, escolha hematofago ou herbivoro");
+		System.out.println("Se sua escolha foi anelideo, escolha hematofago ou onivoro");
 		String terceiraEscolha = scanner.nextLine();
 		String carnivoro = "carnivoro";
 		String onivoro = "onivoro";
