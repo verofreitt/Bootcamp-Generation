@@ -8,8 +8,6 @@ public class AtividadeDoWhile1 {
 		Scanner scanner = new Scanner(System.in);
 		int positivosSoma = 0, numero;
 		
-		
-		
 		do {
 			System.out.println("Digite um numero positivo ou negativo:");
 			numero = scanner.nextInt();
