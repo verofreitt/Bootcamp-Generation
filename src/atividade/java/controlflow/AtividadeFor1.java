@@ -12,16 +12,19 @@ public class AtividadeFor1 {
 		int segundoNumero = scanner.nextInt();
 		int contador;
 		
-		System.out.println("O primeiro número deve ser menor do que o segundo número");
+		scanner.close();
 		
-		for(contador = primeiroNumero; contador < segundoNumero; contador++) {
+		
+		if(primeiroNumero > segundoNumero) {
+			System.out.println("o intervalo é inválido");
+		} else {
+			for(contador = primeiroNumero; contador < segundoNumero; contador++) {
 				if(contador % 3 == 0 && contador % 5 == 0){
 			        System.out.println(contador+" é múltiplo de 3 e 5");
 			}
 		}
-		System.out.println("o intervalo é inválido");
-		
-		scanner.close();
 	}
-
 }
+}
+
+
