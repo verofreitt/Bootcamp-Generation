@@ -8,6 +8,7 @@ public class AtividadeFor1 {
 		
 		System.out.println("Digite o primeiro número do intervalo: ");
 		int primeiroNumero = scanner.nextInt();
+		
 		System.out.println("Digite o último número do intervalo: ");
 		int segundoNumero = scanner.nextInt();
 		int contador;

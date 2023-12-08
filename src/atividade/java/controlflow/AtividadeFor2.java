@@ -11,6 +11,7 @@ public class AtividadeFor2 {
 		for(contador = 1; contador <= 10; contador++) {
 			System.out.println("Digite o " + contador + "º numero: ");
 			int numero = scanner.nextInt();
+			
 			if(numero % 2 == 0) {
 				pares++;
 			}else {
