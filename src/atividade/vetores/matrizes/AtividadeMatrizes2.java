@@ -9,12 +9,12 @@ public class AtividadeMatrizes2 {
 		
 		double[] medias = new double[10];
 		
-		for (int aluno = 0; aluno < 10; aluno++) {
+		for (int linha = 0; linha < 10; linha++) {
             double soma = 0;
-            for (int bimestre = 0; bimestre < 4; bimestre++) {
-                soma += notas[aluno][bimestre];
+            for (int coluna = 0; coluna < 4; coluna++) {
+                soma += notas[linha][coluna];
             }
-            medias[aluno] = soma / 4;
+            medias[linha] = soma / 4;
         }
 		
 		System.out.println("\nMédias dos Alunos:");

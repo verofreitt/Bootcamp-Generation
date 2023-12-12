@@ -6,8 +6,10 @@ public class AtividadeVetor1 {
 
 	public static void main(String[] args) {
 		int vetorInt[] = {2,5,1,3,4,9,7,8,10,6};
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Digite a posição desejada");
+		
 		int numero = scanner.nextInt();
 		
 		int posicao = -1;
@@ -19,7 +21,7 @@ public class AtividadeVetor1 {
 		
 		if (posicao != -1) {
             System.out.println("O número " + numero + " está localizado na posição: " + posicao);
-        } else {
+        } else { 
             System.out.println("\nO número " + numero + " não foi encontrado!");
         }
 		scanner.close();
