@@ -9,7 +9,8 @@ public class Atividade2CollectionsList {
 		ArrayList<Integer> numeros = new ArrayList<>();
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("Digite 10 números inteiros: ");
+		System.out.print("Digite 10 números inteiros: \n");
+		
 		for (int i = 0; i < 10; i++) {
             System.out.print("Número " + (i + 1) + ": ");
             int numero = scanner.nextInt();
