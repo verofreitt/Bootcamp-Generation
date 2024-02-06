@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: auto; 
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; 
+}
+
+.nav-topo {
+    z-index: 1;
+    background-color: #483D8B;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-topo ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-topo ul li {
+    display: inline;
+}
+
+.nav-topo ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Cursive', fantasy;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-topo ul li a:hover {
+    background-color: #6A5ACD;
+    border-bottom: 3px solid #fff;
+}
+
+.personagem {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    width: calc(25% - 30px); 
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.personagem:hover {
+    transform: scale(1.1);
+}
+
+.personagem img {
+    max-width: 100%;
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.nome-personagem {
+    font-family: 'Cursive', fantasy;
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.quadros-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+

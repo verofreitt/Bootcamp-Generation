@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('img/backgroundSobre.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.nav-topo {
+    background-color: #483D8B;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-topo ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-topo ul li {
+    display: inline;
+}
+
+.nav-topo ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Cursive', fantasy;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-topo ul li a:hover {
+    background-color: #6A5ACD;
+    border-bottom: 3px solid #fff;
+}
+
+.conteudo-sobre {
+    text-align: center;
+    z-index: 1;
+    margin: 50px;
+}
+
+.quadro-branco {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.quadro-branco img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.quadro-branco h2 {
+    font-size: 28px; 
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.quadro-branco p {
+    font-size: 18px; 
+    color: #555;
+}
