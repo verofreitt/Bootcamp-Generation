@@ -21,12 +21,47 @@ body {
     z-index: 1;
     background-color: #483D8B;
     padding: 15px;
-    border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     width: 100%;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+#searchInput {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#searchInput:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(106, 90, 205, 0.8);
+}
+
+#searchBtn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6A5ACD;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#searchBtn:hover {
+    background-color: #483D8B;
 }
 
 .nav-topo ul {
@@ -55,6 +90,7 @@ body {
     border-bottom: 3px solid #fff;
 }
 
+
 .personagem {
     position: relative;
     background-color: #fff;
@@ -66,6 +102,7 @@ body {
     width: calc(25% - 30px); 
     box-sizing: border-box;
     transition: transform 0.3s ease;
+    margin-top: 21px;
 }
 
 .personagem:hover {
@@ -96,5 +133,14 @@ body {
     margin-top: 40px;
 }
 
-
-
+@media screen and (max-width: 768px) {
+    .search-container {
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 10px; /* Adicione um espaço no topo no mobile se necessário */
+    }
+    
+    #searchInput {
+        margin-bottom: 10px;
+    }
+}
