@@ -1,146 +1,147 @@
 body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow: auto; 
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: auto; 
 }
 
 .background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/Atividade pratica HTML/blog/assets/img/background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/Atividade pratica HTML/blog/assets/img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; 
 }
 
 .nav-topo {
-    z-index: 1;
-    background-color: #483D8B;
-    padding: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  z-index: 1;
+  background-color: #483D8B;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .search-container {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 #searchInput {
-    padding: 8px;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
 #searchInput:focus {
-    outline: none;
-    box-shadow: 0 0 5px rgba(106, 90, 205, 0.8);
+  outline: none;
+  box-shadow: 0 0 5px rgba(106, 90, 205, 0.8);
 }
 
 #searchBtn {
-    padding: 8px 15px;
-    border: none;
-    border-radius: 5px;
-    background-color: #6A5ACD;
-    color: #fff;
-    font-size: 14px;
-    cursor: pointer;
-    margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6A5ACD;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
 #searchBtn:hover {
-    background-color: #483D8B;
+  background-color: #483D8B;
 }
 
 .nav-topo ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
 }
 
 .nav-topo ul li {
-    display: inline;
+  display: inline;
 }
 
 .nav-topo ul li a {
-    padding: 10px;
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Cursive', fantasy;
-    font-size: 18px;
-    margin: 0 15px;
-    transition: all 0.3s ease;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Cursive', fantasy;
+  font-size: 18px;
+  margin: 0 15px;
+  transition: all 0.3s ease;
 }
 
 .nav-topo ul li a:hover {
-    background-color: #6A5ACD;
-    border-bottom: 3px solid #fff;
+  background-color: #6A5ACD;
+  border-bottom: 3px solid #fff;
 }
 
 
 .personagem {
-    position: relative;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 15px;
-    padding: 10px;
-    text-align: center;
-    width: calc(25% - 30px); 
-    box-sizing: border-box;
-    transition: transform 0.3s ease;
-    margin-top: 21px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  width: calc(25% - 30px); 
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+  margin-top: 21px;
 }
 
 .personagem:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .personagem img {
-    max-width: 100%;
-    height: 150px; 
-    object-fit: cover; 
-    border-radius: 50%;
-    margin-bottom: 10px;
+  max-width: 100%;
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 .nome-personagem {
-    font-family: 'Cursive', fantasy;
-    font-size: 16px;
-    color: #555;
-    margin-top: 10px;
+  font-family: 'Cursive', fantasy;
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
 }
 
 .quadros-personagens {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 20px;
-    margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 768px) {
-    .search-container {
-        flex-direction: column;
-        align-items: flex-end;
-        margin-top: 10px; /* Adicione um espaço no topo no mobile se necessário */
-    }
-    
-    #searchInput {
-        margin-bottom: 10px;
-    }
+  .search-container {
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 10px; /* Adicione um espaço no topo no mobile se necessário */
+  }
+  
+  #searchInput {
+      margin-bottom: 10px;
+  }
 }
+  
